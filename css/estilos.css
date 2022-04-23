@@ -1,0 +1,38 @@
+body {
+    background-image: url('C:/Users/wasts/OneDrive/Documentos/01 - Cursos/22 - HTML, CSS e JavaScript (Guanabara)/Codigos/HTML_CSS/imagens/paisagem3.jpg');
+    background-size: auto 150vh; 
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: rgb(3, 3, 3);
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none; 
+  }
+  
+  a {
+    color: rgb(30, 206, 206);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle, 
+  .site-title {
+    color: rgb(25, 175, 212);
+    text-align: center;
+  }
+  
+  .site-subtitle {
+   font-style: italic;
+  }
